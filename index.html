@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0815_Sign-upForm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    
+        <div class="title">
+            <img class='icon' src="odin-lined.png" alt="odin's logo">
+            <h1>ODIN</h1>
+        </div>
+
+        <footer>Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </footer>
+    
+    </header>
+    <main>
+        <div class="introduction">
+            <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up now to get started.</h3>
+            
+            <h3>You <em>know</em> you want to.</h3>
+        </div>
+            
+        <form>
+                <fieldset>
+                <h2>Let's do this!</h2>
+                
+                <div class="units">
+                <div class="unit firstName">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName"/>
+                </div>
+                <div class="unit lastName">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lastName"/>
+                </div>
+             </div>
+
+             <div class="units">
+                <div class="unit email">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+            
+                <div class="unit phone">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phoneNum"/>
+                </div>
+
+            </div>
+
+            <div class="units">
+
+                <div class="unit password">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password"/>
+                    <span></span>
+                </div>
+                <div class="unit confirmPassword">
+                    <label for="comfirm">COMFIRM PASSWORD</label>
+                    <input type="password" id="comfirm" name="comfirmPassword"/>
+                </div>
+            </div>
+            </fieldset>
+            
+            <div class="submit">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+        </div>
+            </form>
+
+    </main>
+    
+</body>
+</html>
